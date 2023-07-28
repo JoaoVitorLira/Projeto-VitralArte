@@ -51,9 +51,7 @@ img {
 .titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-    font-weight: 700;
-    line-height: 68px;
-    letter-spacing: 0em;
+    font-weight: 800;
     text-align: center;
 
 
@@ -67,17 +65,38 @@ img {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+}
 
+.banner {
+    position: relative;
+}
 
+.logo2 {
+    position: absolute;
+    top: 190px;
+    left: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.sub {
+    position: absolute;
+    top: 225px;
+    left: 69%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .barra {
     display: flex;
     justify-content: space-around;
-
 }
-
-.logo2 {}
 
 .bannervitral {
     height: 430px;
@@ -86,28 +105,35 @@ img {
 }
 
 .equipe .equip {
-    width: 445px;
-    height: 609px;
-    top: 725px;
-    left: 813px;
+    width: 365px;
+    height: 500px;
+    margin-right: 100px;
     border-radius: 10px;
 }
 
 .pouco {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
-    line-height: 41px;
     letter-spacing: 0em;
-    text-align: center;
+    margin-left: 11%;
+}
+
+.texto {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 80px;
 
 }
 
 .textin {
+    font-family: 'Open Sans', sans-serif;
     justify-content: justify;
-    margin-top: 150px;
-    margin-left: 100px;
-    margin-right: 120px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 200px;
 
 }
 
